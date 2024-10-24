@@ -92,3 +92,107 @@ a {
 }
 
 /* SPBRE MIM */
+.sobre-mim{
+    margin-top: 32px;
+    padding: 64px;
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mim__titulo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sobre-mim__texto {
+    padding-top: 16px;
+    padding-right: 385px;
+}
+
+/* FORMAÇÃO ACADEMICA */
+.formacao {
+    margin-top: 32px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.formacao__elemento {
+    padding: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.formacao__icone {
+    height: 100px;
+    width: 200px;
+}
+
+.formacao__nome-detalhe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HABILIDADES */
+.habilidades__titulo {
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.habilidades__lista {
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+/* PROJETOS */
+.projetos__titulo {
+    margin-top: 32px;
+    padding: 64px;
+    display:flex;
+    justify-content: center;
+}
+
+    .projetos__img {
+        height: 406px;
+        width: 752;
+        padding-left: 64px;
+    }
+
+    .projetos__conteiner {
+        margin-top: 32px;
+        display: flex;
+        gap: 16px;
+    }
+
+    .projetos__nome {
+        color: #464646;
+        font-weight: 700;
+        font-size: 22px;
+        padding-left: 50px;
+        
+    }
+
+    .projetos__link {
+        border: 2px solid #2A7AE4;
+        height: 51px;
+        width: 116px;
+        padding: 16px;
+    }
+    
+    
+   
+
+
